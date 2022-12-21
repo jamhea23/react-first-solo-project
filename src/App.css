@@ -1,7 +1,25 @@
-.App {
-  text-align: center;
+body {
+  background-color: #23252c;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
+.root {
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  background-color: #1a1b21;
+  width: 320px;
+  height: 780px;
+  border-radius: 5px;
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,10 +40,125 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+.info {
+  width: auto;
+  height: auto;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+img.info-pic {
+  object-fit: cover;
+  width: 100%;
+}
+
+.info > h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin: 0px 0px;
+}
+
+.info > p {
+  font-size: 12.8px;
+  color: orange;
+  margin: 0px;
+}
+
+.info > span {
+  font-size: 10.24px;
+  color: #f5f5f5;
+  font-weight: 400;
+  line-height: 150%;
+}
+.info-buttons {
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.info-button {
+  width: 115px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #183153;
+  border-radius: 6px;
+}
+.info-button > i {
+  padding-right: 7px;
+}
+
+.info-button:last-child {
+  color: white;
+  background-color: #2d9df3;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 30px;
+  margin-top: 10px;
+}
+.about > h3 {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about > p {
+  color: #dcdcdc;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  text-align: left;
+  padding: 0 30px;
+  margin-top: 10px;
+  padding-bottom: 90px;
+}
+
+.interests > h3 {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.interests > p {
+  color: #dcdcdc;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.footer {
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #161619;
+}
+.footer > i {
+  color: #918e9b;
 }
 
 @keyframes App-logo-spin {
