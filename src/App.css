@@ -159,6 +159,8 @@ img.info-pic {
 }
 .footer > i {
   color: #918e9b;
+  width: 21px;
+  height: 24px;
 }
 
 @keyframes App-logo-spin {
